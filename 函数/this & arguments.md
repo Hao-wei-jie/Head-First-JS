@@ -81,6 +81,7 @@ sum.call(undefined, 1, 2)
 - call / apply
 
 fn.call(asThis, p1,p2) 是函数的正常调用方式
+
 当你不确定参数的个数时，就使用 apply
 fn.apply(asThis, params)
 
